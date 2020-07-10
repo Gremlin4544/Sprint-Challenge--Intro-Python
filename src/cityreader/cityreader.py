@@ -84,6 +84,11 @@ for c in cities:
 
 # TODO Get latitude and longitude values from the user
 
+my_lat1 = float(input('First lat: '))
+my_lon1 = float(input('First long: '))
+my_lat2 = float(input('Second lat: '))
+my_lon2 = float(input('Second long: '))
+
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   # within will hold the cities that fall within the specified region
   within = []
